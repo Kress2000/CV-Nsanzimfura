@@ -3,7 +3,6 @@
     font-size: small;
     color: black;
     flex-shrink: 1;
-    /* flex-wrap: wrap; */
     font-family: sans-serif;
 }
 ::-webkit-scrollbar {
@@ -26,7 +25,6 @@
     background: rgba(168, 168, 168, 0.903); 
   }
 /* FOR SMALLER DEVICES UNDER 380px */
-
 @media  screen and (max-width: 380px) {
 .header{
     width: 100vw !important;
