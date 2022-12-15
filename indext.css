@@ -26,10 +26,15 @@
     background: rgba(168, 168, 168, 0.903); 
   }
 /* FOR SMALLER DEVICES UNDER 380px */
+
 @media  screen and (max-width: 380px) {
-   *{
-    flex-wrap: wrap-reverse;
-} 
+.header{
+    width: 100vw !important;
+}
+body{
+    padding: 0 !important;
+    margin-top: 16vh;
+}
 }
 body{
     background: rgb(206, 205, 205);
