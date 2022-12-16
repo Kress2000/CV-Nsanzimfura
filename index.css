@@ -35,10 +35,17 @@ body{
 }
 }
 @media  screen and (max-width: 300px) {
-    *{
-        flex-wrap: wrap-reverse !important;
+   .body{
+    flex-wrap: wrap-reverse;
+   }
+    .header{
+    flex-wrap: wrap-reverse;
+    }
+    .body .right-side{
+        padding: 1rem;
     }
 }
+
 body{
     background: rgb(206, 205, 205);
     padding: 0 4rem;
